@@ -1,0 +1,25 @@
+.item{
+    max-width: 180px;
+    max-height: 300px;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 35px -12px rgb(0,0,0, .3);
+}
+
+.item-img{
+    display: flex;
+    justify-content: center;
+}
+
+.item-img img{
+    max-width: 200px;
+}
+
+.item-body{
+    padding: 30px 20px;
+}
+
+.item-body h4{
+    margin-bottom: 15px;
+}
