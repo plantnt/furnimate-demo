@@ -12,6 +12,7 @@ import { UserHelpFooterComponent } from './layouts/user-help-footer/user-help-fo
 import { ItemComponent } from './pages/item/item.component';
 import { CatalogComponent } from './pages/catalog/catalog.component';
 import { CartComponent } from './pages/cart/cart.component';
+import { ProductComponent } from './pages/product/product.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CartComponent } from './pages/cart/cart.component';
     UserHelpFooterComponent,
     ItemComponent,
     CatalogComponent,
-    CartComponent
+    CartComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

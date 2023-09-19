@@ -1,8 +1,18 @@
 .app-body{
+  display: flex;
+  justify-content: center;
     min-height: 85vh;
     margin-top: 82px;
+    padding: 0 50px;
 }
 
 .footer-wrap{
     display: inline;
+}
+
+
+app-filters{
+  position: absolute;
+  left: 0;
+  z-index: 0;
 }
