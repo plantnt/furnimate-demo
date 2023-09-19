@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
-import { ItemService, Item } from 'src/app/item.service';
+import { ItemService, Data, Items} from 'src/app/item.service';
 
 @Component({
   selector: 'app-item',
@@ -7,7 +7,8 @@ import { ItemService, Item } from 'src/app/item.service';
   styleUrls: ['./item.component.css']
 })
 export class ItemComponent implements OnInit, AfterViewInit{
-  items: Item[] = []
+  items: Items[] = []
+
   @ViewChild('itemImage')
   itemImg!: ElementRef
 
@@ -16,12 +17,12 @@ export class ItemComponent implements OnInit, AfterViewInit{
   }
 
   ngAfterViewInit(): void {
-    const itemOptions = ["a.jpg", "b.jpg", "c.jpg"]
-    const randomOption = itemOptions[Math.floor(Math.random()*itemOptions.length)]
+    // const itemOptions = ["a.jpg", "b.jpg", "c.jpg"]
+    // const randomOption = itemOptions[Math.floor(Math.random()*itemOptions.length)]
 
-    if (this.itemImg && this.itemImg.nativeElement) {
-      this.itemImg.nativeElement.src = `assets/img/product_${randomOption}`;
-    }
+    // if (this.itemImg && this.itemImg.nativeElement) {
+    //   this.itemImg.nativeElement.src = `assets/img/product_${randomOption}`;
+    // }
   }
 
   ngOnInit(): void {
@@ -33,5 +34,14 @@ export class ItemComponent implements OnInit, AfterViewInit{
     //     this.items = [response];
     //   }
     // })
+    this.itemService.getItems().subscribe({
+      next: (data: Data) => {
+        console.log(this.items)
+        this.items = data.attributes
+      },
+      error: (err) => {
+        this.items = []
+      }
+    })
   }
 }
