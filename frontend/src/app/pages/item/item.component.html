@@ -1,4 +1,4 @@
-<div *ngFor="let item of items" class="item">  
+<!-- <div *ngFor="let item of items" class="item">  
     <div class="item-img">
         <img src="" alt="item">
     </div>
@@ -7,5 +7,15 @@
         <h3>COP {{item.price}}</h3>
         <p>Debug: {{ item | json }}</p>
 
+    </div>
+</div> -->
+
+<div class="item">
+    <div class="item-img-container">
+        <img #itemImg src="" alt="item" >
+    </div>
+    <div class="item-body">
+        <h4>Nombre del producto</h4>
+        <h3>COP $$$$$</h3>
     </div>
 </div>

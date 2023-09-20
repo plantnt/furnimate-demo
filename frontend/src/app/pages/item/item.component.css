@@ -7,13 +7,14 @@
     box-shadow: 10px 10px 35px -12px rgb(0,0,0, .3);
 }
 
-.item-img{
+.item-img-container{
     display: flex;
     justify-content: center;
 }
 
-.item-img img{
+.item-img-container img{
     max-width: 200px;
+    height: 130px;
 }
 
 .item-body{
