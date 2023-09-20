@@ -11,7 +11,6 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { UserHelpFooterComponent } from './layouts/user-help-footer/user-help-footer.component';
 import { ItemComponent } from './pages/item/item.component';
 import { CatalogComponent } from './pages/catalog/catalog.component';
-import { CartComponent } from './pages/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +21,7 @@ import { CartComponent } from './pages/cart/cart.component';
     FooterComponent,
     UserHelpFooterComponent,
     ItemComponent,
-    CatalogComponent,
-    CartComponent
+    CatalogComponent
   ],
   imports: [
     BrowserModule,
