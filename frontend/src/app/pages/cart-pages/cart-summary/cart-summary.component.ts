@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./cart-summary.component.css']
 })
 export class CartSummaryComponent {
-
+  summaryimg="https://www.cranepi.com/sites/default/files/styles/mvp2_card/public/2022-06/_B740137.jpg?itok=NwzOuXZW";
 }
