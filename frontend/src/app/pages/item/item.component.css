@@ -10,11 +10,15 @@
 .item-img{
   display: flex;
   justify-content: center;
+
+
 }
 
 .item-img img{
   max-width: 200px;
-  max-height: 120px;
+  height: 120px;
+
+
 }
 
 .item-body{
