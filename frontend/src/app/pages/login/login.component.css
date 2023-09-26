@@ -1,0 +1,10 @@
+.formulario-registro {
+  display: flex;
+  min-height: 1px;
+  flex-direction: column;
+  align-items: center; 
+  margin-top: 25vh;
+}
+
+#formulario {
+  text-align: center; }
