@@ -4,6 +4,6 @@ flex-direction: row;
 align-items: flex-end;
 justify-content: space-between;
 width: 750px;
-height: 550px;
-padding: 10;
+height: 450px;
+padding: 5px;
 }
