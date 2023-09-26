@@ -4,6 +4,7 @@
   flex-direction: column;
   position: fixed;
   top: 65px;
+  left: 0;
   max-width: 200px;
   padding: 50px 20px;
   border-bottom-right-radius: 5px;

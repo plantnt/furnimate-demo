@@ -17,11 +17,11 @@ export class ItemComponent implements OnInit, AfterViewInit{
   }
 
   ngAfterViewInit(): void {
-    const itemOptions = ["a.jpg", "b.jpg", "c.jpg"]
+    const itemOptions = ["a", "b","c","d","e","f","g","h","i","j","k","l"]
     const randomOption = itemOptions[Math.floor(Math.random()*itemOptions.length)]
 
     if (this.itemImg && this.itemImg.nativeElement) {
-      this.itemImg.nativeElement.src = `assets/img/product_${randomOption}`;
+      this.itemImg.nativeElement.src = `assets/img/products/product_${randomOption}.jpg`;
     }
   }
 
