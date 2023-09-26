@@ -42,6 +42,17 @@
 
 #searchIcon,
 #cartIcon,
-#profileIcon {
+#profileIcon,
+#sesionIcon {
     margin-left: 15px;
+}
+
+
+#botonsesion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    max-width: 200%; 
+    
 }
