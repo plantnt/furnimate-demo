@@ -13,26 +13,46 @@
     border-radius: 50%;
     padding: 2px;
   }
-  button {
+  .eliminar{
     background: none;
     border: none;
     cursor: pointer;
     padding: 4px;
   }
   
-  button:hover,
-  button:focus {
+  .eliminar:hover,
+  .eliminar:focus {
     background-color: #f0f0f0;
     border-radius: 50%;
     outline: none;
   }
   
-  button img {
+  .eliminar img {
     position: relative;
     top: 2px;
     width: 18px;
     height: 18px;
+    z-index: -10px;
   }
+  .compra-ind{
+    padding: 8px 12px;
+    margin-top: 24px;
+    background-color: #9A6CC8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .compra-ind:hover,
+  .compra-ind:focus{
+    background-color: #8c51c7;
+    outline: none;
+  }
+
+
   
   .info {
     display: flex;
