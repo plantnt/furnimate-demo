@@ -18,6 +18,7 @@ import { CartListComponent } from './pages/cart-pages/cart-list/cart-list.compon
 import { CartSummaryComponent } from './pages/cart-pages/cart-summary/cart-summary.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { SessionComponent } from './pages/session/session.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { SessionComponent } from './pages/session/session.component';
     CartListComponent,
     CartSummaryComponent,
     ProfileComponent,
-    SessionComponent
+    SessionComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
