@@ -35,7 +35,7 @@
     z-index: -10px;
   }
   .compra-ind{
-    padding: 8px 12px;
+    padding: 8px 8px;
     margin-top: 24px;
     background-color: #9A6CC8;
     color: #fff;
@@ -63,5 +63,6 @@
   
   .info-price {
     font-weight: 600;
+    padding:24px;
   }
   
