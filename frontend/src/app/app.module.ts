@@ -19,6 +19,10 @@ import { CartSummaryComponent } from './pages/cart-pages/cart-summary/cart-summa
 import { ProfileComponent } from './pages/profile/profile.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { LoginComponent } from './pages/login/login.component';
+import { SearchboxComponent } from './layouts/searchbox/searchbox.component';
+import { FormsModule } from '@angular/forms';
+import { FilterProductosPipe } from './filter-productos.pipe';
+import { SearchService } from './search.service';
 
 @NgModule({
   declarations: [
@@ -38,14 +42,17 @@ import { LoginComponent } from './pages/login/login.component';
     CartSummaryComponent,
     ProfileComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    SearchboxComponent,
+    FilterProductosPipe,
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [SearchService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
