@@ -1,19 +1,26 @@
-.userPicture{
-width:200px;
-height:200px;
+.userPicture {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto 20px;
+
 }
 
 .userProfile {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 45vh; 
 }
 
 .centrar-contenido {
-  text-align: center;
+  max-width: 400px;
+  margin: 20px auto; 
 }
 
 .hipervinculo {
-  text-decoration: underline; /* Agrega subrayado */
-  color: blue; /* Establece el color del texto en azul */
+  text-decoration: underline;
+  color: blue;
 }

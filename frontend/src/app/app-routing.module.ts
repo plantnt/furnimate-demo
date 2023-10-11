@@ -6,6 +6,7 @@ import { ProductComponent } from './pages/product/product.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { LoginComponent } from './pages/login/login.component';
+import { ItemComponent } from './pages/item/item.component';
 
 const routes: Routes = [
 { path: '', component: CatalogComponent, title: 'Cátalogo'},

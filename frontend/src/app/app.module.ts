@@ -23,6 +23,7 @@ import { SearchboxComponent } from './layouts/searchbox/searchbox.component';
 import { FormsModule } from '@angular/forms';
 import { FilterProductosPipe } from './filter-productos.pipe';
 import { SearchService } from './search.service';
+import { PasswordVisibilityDirective } from './password-visibility.directive';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { SearchService } from './search.service';
     LoginComponent,
     SearchboxComponent,
     FilterProductosPipe,
+    PasswordVisibilityDirective,
   ],
   imports: [
     FormsModule,
