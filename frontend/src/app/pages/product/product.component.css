@@ -1,9 +1,6 @@
 .container{
   width: 100vw;
-
-
 }
-
 .product-img{
   display: flex;
   justify-content: center;
@@ -38,4 +35,29 @@
 
 .product-descrip h3{
   margin-bottom: 5px;
+}
+
+.two-button {
+    background-color: rgb(255, 247, 247);
+    color:gray;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px; 
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.two-button:hover {
+    background-color: lightgray;
+    color:white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px; 
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    cursor: pointer;
 }
