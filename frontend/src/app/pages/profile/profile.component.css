@@ -1,0 +1,19 @@
+.userPicture{
+width:200px;
+height:200px;
+}
+
+.userProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.centrar-contenido {
+  text-align: center;
+}
+
+.hipervinculo {
+  text-decoration: underline; /* Agrega subrayado */
+  color: blue; /* Establece el color del texto en azul */
+}
